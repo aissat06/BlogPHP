@@ -1,5 +1,4 @@
-<?php require VIEW_PATH . '/layouts/header.php'; ?>
-
+<?php
+$title = "Ma categorie";
+?>
 <h1>Voir chaque categorie</h1>
-
-<?php require VIEW_PATH . '/layouts/footer.php'; ?>
