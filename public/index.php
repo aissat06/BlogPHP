@@ -11,6 +11,12 @@ use App\Router;
 
 require '../vendor/autoload.php';
 
+define('DEBUG_TIME', microtime(true));
+// pachage whoops qui affiche une belle page d'erreur
+$whoops = new \Whoops\Run;
+$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+$whoops->register();
+
 // code remplaçant
 $router = new Router(dirname(__DIR__) . '/views');
 $router

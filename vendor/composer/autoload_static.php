@@ -17,6 +17,10 @@ class ComposerStaticInit601c51f8a71e1e8530e4da781acad2e8
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Whoops\\' => 7,
+        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -64,6 +68,10 @@ class ComposerStaticInit601c51f8a71e1e8530e4da781acad2e8
         array (
             'Monolog\\' => 8,
         ),
+        'F' => 
+        array (
+            'Faker\\' => 6,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -71,6 +79,10 @@ class ComposerStaticInit601c51f8a71e1e8530e4da781acad2e8
     );
 
     public static $prefixDirsPsr4 = array (
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -210,6 +222,10 @@ class ComposerStaticInit601c51f8a71e1e8530e4da781acad2e8
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
         ),
         'App\\' => 
         array (
