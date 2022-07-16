@@ -30,7 +30,7 @@ for ($i=0; $i < 20; $i++) {
 }
 
 for ($i=0; $i < 5; $i++) { 
-    $pdo->exec("INSERT INTO category SET name='{$faker->sentence(3)}', slug='{$faker->slug}'");
+    $pdo->exec("INSERT INTO category SET name='{$faker->sentence(2)}', slug='{$faker->slug}'");
     $categories[] = $pdo->lastInsertId();
 }
 

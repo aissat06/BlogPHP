@@ -1,4 +1,7 @@
 <?php
 $title = "Ma categorie";
 ?>
-<h1>Voir chaque categorie</h1>
+
+<div class="container">
+    <h1>Voir chaque categorie</h1>
+</div>
